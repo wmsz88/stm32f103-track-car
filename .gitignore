@@ -1,0 +1,25 @@
+# Keil MDK 构建产物
+Objects/
+Listings/
+DebugConfig/
+*.o
+*.d
+*.crf
+*.axf
+*.hex
+*.bin
+*.map
+*.lst
+*.dep
+*.htm
+*.lnp
+*.sct
+*.bak
+
+# 个人工程配置（含本机路径）
+*.uvguix.*
+*.uvoptx
+
+# 系统文件
+Thumbs.db
+desktop.ini

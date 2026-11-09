@@ -1,0 +1,10 @@
+* text=auto
+
+# Keil 工程与源码统一 LF，避免跨平台 diff 噪声
+*.c   text eol=lf
+*.h   text eol=lf
+*.md  text eol=lf
+
+# Keil 工程文件保留原样
+*.uvprojx -text
+*.sct     -text
